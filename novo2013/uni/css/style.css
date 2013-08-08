@@ -40,7 +40,7 @@ body {
 	line-height:1.5em
 }
 a {
-	color:#0dc2ce;
+	color:#c1c15e;
 	outline:none
 }
 a:hover {
@@ -204,8 +204,8 @@ h1 {
 }
 h1 a {
 	display:block;
-	width:266px;
-	height:98px;
+	width:345px;
+	height:115px;
 	text-indent:-5000px;
 	background:url(../images/logo.png) 0 0 no-repeat
 }
@@ -243,7 +243,7 @@ h4 {
 	font-size:28px;
 	line-height:1.214em;
 	margin:0 0 6px 0;
-	color:#0dc2ce;
+	color:#c1c15e;
 	font-weight:300;
 	letter-spacing:-1px
 }
@@ -261,7 +261,7 @@ h4 {
 	letter-spacing:-1px;
 	padding:4px 13px 6px;
 	color:#fff;
-	background:url(../images/button-tail.gif) 0 0 repeat-x #09b4c2;
+	background:/*url(../images/button-tail.gif)*/ 0 0 repeat-x #c1c15e;
 	border-radius:7px;
 	-moz-border-radius:7px;
 	-webkit-border-radius:7px
@@ -280,7 +280,7 @@ h4 {
 	color:#4f4f4f
 }
 .list-1 li a:hover {
-	color:#0dc2ce
+	color:#c1c15e
 }
 .link:hover {
 	text-decoration:underline
@@ -300,7 +300,7 @@ h4 {
 	font-weight:bold
 }
 .tdate-1 a {
-	color:#0dc2ce
+	color:#c1c15e
 }
 .numb {
 	display:block;
@@ -401,7 +401,7 @@ footer {
 	font-weight:300
 }
 .footer-text strong {
-	color:#0dc2ce;
+	color:#c1c15e;
 	font-weight:300
 }
 .footer-text a {
@@ -424,8 +424,8 @@ footer {
 	font-weight:300;
 	font-size:35px;
 	line-height:1.2em;
-	color:#0dc2ce;
-	margin-bottom:-11px
+	color:#c1c15e;
+	margin-bottom:-5px
 }
 .support-phone b {
 	font-weight:300;

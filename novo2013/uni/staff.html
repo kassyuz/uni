@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<title>SpaSalon | Staff</title>
+<title>Uni Estética Integrada | Nossa equipe</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -19,6 +19,11 @@
 <script src="js/Vegur_300.font.js"></script>
 <script src="js/Vegur_400.font.js"></script>
 <script src="js/FF-cash.js"></script>
+<script type="text/javascript" src="js/general.js"></script> 
+<!-- include jQuery UI library -->
+<script type="text/javascript" src="js/jquery-ui-1.8.21.custom/js/jquery-ui-1.8.21.custom.min.js"></script>
+<link type="text/css" href="js/jquery-ui-1.8.21.custom/css/smoothness/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
@@ -42,7 +47,7 @@
                   <li class="last-item"><a  href="contacts.html">Contato</a></li>
                 </ul>
               </nav>
-              <h1><a href="index.html">SpaSalon</a></h1>
+              <h1><a href="index.html">Uni Estética Integrada</a></h1>
             </div>
           </div>
         </div>
@@ -55,22 +60,27 @@
       <div class="container_12">
         <div class="wrapper p4">
           <article class="grid_12">
-            <h3 class="p2">Our Staff</h3>
+            <h3 class="p2">Nossa equipe</h3>
             <div class="wrapper p4">
               <figure class="img-indent border"><img src="images/page4-img1.jpg" alt=""></figure>
               <div class="extra-wrap">
                 <div class="wrapper">
-                  <h4 class="fleft">Nikkie Watson</h4>
+                  <h4 class="fleft">Andressa Barros</h4>
                   <ul class="list-services fright indent-top">
-                    <li><a href="#"></a></li>
-                    <li><a class="item-2" href="#"></a></li>
+                    <!-- Facebook -->
+					<li><a href="javascript:abrirSite('https://www.facebook.com/andressa.barros.792')"></a></li>
+					<!-- Twitter -->
+					<!-- <li><a class="item-2" href="#"></a></li> -->
                   </ul>
                 </div>
-                <strong class="text-1 color-3 prev-indent-bot2">Stylist</strong>
-                <p>Consectetur adipcing eld eiusmod tempor incidint utbore dolore magna aliquat enim minim veniam quis nostrud exercitation ullamco laborum et dolorum.</p>
-                <a class="button" href="#">Details</a> </div>
+                <strong class="text-1 color-3 prev-indent-bot2">Tecnóloga em Estética</strong>
+                <p>Atua em espaços de beleza e estética desde de 2006, trabalhando sempre com atividades de estética como massagens, maquiagem e penteados. Em 2007 ingressou no curso de superior de Estética da UNIPAR que foi a primeira universidade do Brasil a liberar um curso superior de estética, ela se formou em 2009 e em seguida lançando para o mercado seu centro de estética em sua cidade natal, Iporã - Pr. 
+					<br> Após a sua mudança para Joinville em janeiro de 2011 seu primeiro projeto foi lecionar aulas de cirurgia plástica, maquiagem, depilação e pré e pós operatório em um dos institutos mais conceituados da cidade, o Instituto IREI. Então em novembro de 2011 se torna concreto o projeto de um novo centro de estética na cidade, hoje seu principal foco é atender clientes que estão procurando aumentar sua autoestima e autoconfiança.
+				</p>
+                <a class="button" href="" id="curriculoAndressaLink">Detalhes</a> 
+			  </div>
             </div>
-            <div class="wrapper p4">
+            <!--div class="wrapper p4">
               <figure class="img-indent border"><img src="images/page4-img2.jpg" alt=""></figure>
               <div class="extra-wrap">
                 <div class="wrapper">
@@ -97,7 +107,7 @@
                 <strong class="text-1 color-3 prev-indent-bot2">Guest Services</strong>
                 <p>Consectetur adipcing eld eiusmod tempor incidint utbore dolore magna aliquat enim minim veniam quis nostrud exercitation ullamco laborum et dolorum.</p>
                 <a class="button" href="#">Details</a> </div>
-            </div>
+            </div-->
           </article>
         </div>
       </div>
@@ -119,12 +129,43 @@
           </ul>
         </div>
         <div class="grid_4">
-          <div class="support-phone"> <strong>Nos ligue:</strong> <b>47</b>3027.3920 </div>
+          <div class="support-phone"> <strong>Ligue:</strong> <b>47</b>3027.3920 </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
 
+<!--DIVs que abre modal -->
+<div id="curriculoAndressa" title="Currículo">
+				<h2>Andressa Barros Martins</h2>
+				<p>
+					Maquiadora produtora de beleza.
+				</p>
+				<br>
+				<p>	
+					Atualmente ministra aulas de maquiagem, depilação, estética facial, drenagem linfática e procedimentos pré e pós-cirúrgicos. 
+					<br>Membro avaliador da banca examinadora dos estudantes concluintes do Curso Técnico em Massoterapia e do Curso Técnico de Estética Aplicada.
+				</p>
+				<br>
+				<p>
+					Terapeuta em shiatsu e massoterapia.
+					<br>
+					<br>
+					Centro de Educação Profissional São Carlos – Cascavel, Paraná.
+				</p>
+				<br>
+				<p>
+					Graduada no curso superior de Tecnologia em Estética e Cosmetologia.
+					<br><br>
+					UNIPAR - Universidade Paranaense – Umuarama, Paraná.
+				</p>
+				<br>
+				<p>
+					Cursando pós-graduação em Cosmetologia e Cosmecêutica Aplicada a Estética
+					<br><br>
+					PUC-PR - Pontifícia Universidade Católica do Paraná – Curitiba, Paraná.
+				</p>
+		</div>
 
 </html>
