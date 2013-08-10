@@ -8,7 +8,11 @@
 	//$('#local_dados').html(original);
 	
 	abrirMapa = function(){
-		var href = "http://maps.google.com.br/maps?q=visually+Est%C3%A9tica&hl=pt-BR&ie=UTF8&ll=-26.265402,-48.847275&spn=0.041486,0.077162&sll=-26.264363,-48.849544&sspn=0.002593,0.004823&hq=visually+Est%C3%A9tica&t=m&z=14";
+		var href = 
+		
+		//"https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=pt&amp;geocode=&amp;q=R.+Germano+Wetzel,+167+-+Bom+Retiro,+Joinville+-+SC,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=&amp;sll=-26.263463,-48.848144&amp;sspn=0.011064,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Germano+Wetzel,+167+-+Bom+Retiro,+Joinville+-+Santa+Catarina,+89223-010,+Brasil&amp;ll=-26.263458,-48.848155&amp;spn=0.011064,0.01929&amp;t=m&amp;z=14";
+		"https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt&amp;geocode=&amp;q=R.+Germano+Wetzel,+167+-+Bom+Retiro,+Joinville+-+SC,+Rep%C3%BAblica+Federativa+do+Brasil&amp;aq=&amp;sll=-26.263463,-48.848144&amp;sspn=0.011064,0.01929&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Germano+Wetzel,+167+-+Bom+Retiro,+Joinville+-+Santa+Catarina,+89223-010,+Brasil&amp;ll=-26.263458,-48.848155&amp;spn=0.011064,0.01929&amp;t=m&amp;z=14&amp;output=embed";
+		
 		window.open(href);
 	};
 	
