@@ -142,6 +142,15 @@ p {
 .menu li a, .list-1 li a, .list-2 li a, .link, .button, .logo {
 	text-decoration:none
 }
+
+/*.logo{
+	height: 100px;
+	width: 188px;
+	background:url(../images/logo.png) no-repeat;
+	border: 0px;
+}*/
+
+
 /*header*/
 header {
 	width:100%;
@@ -150,7 +159,8 @@ header {
 }
 #page1 header {
 	min-height:600px;
-	background:url(../images/header-bg.jpg) center top no-repeat
+	/*background:url(../images/header-bg.jpg) center top no-repeat*/
+	background:url(../images/cabecalho.png) center top no-repeat;
 }
 /* menu */
 .menu-row {
@@ -204,10 +214,10 @@ h1 {
 }
 h1 a {
 	display:block;
-	width:345px;
+	width:480px;
 	height:115px;
 	text-indent:-5000px;
-	background:url(../images/logo.png) 0 0 no-repeat
+	background:url(../images/uni.png) 0 0 no-repeat
 }
 /*content*/
 #content {
